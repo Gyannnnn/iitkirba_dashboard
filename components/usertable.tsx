@@ -455,7 +455,7 @@ export default function UserTable() {
 
   return (
     <div className="w-full">
-      <div className="flex items-center py-4 justify-between">
+      <div className="flex items-center py-4 justify-between max-sm:gap-2">
         <Input
           placeholder="Filter emails..."
           value={(table.getColumn("email")?.getFilterValue() as string) ?? ""}
@@ -495,7 +495,7 @@ export default function UserTable() {
               <TableRow key={headerGroup.id}>
                 {headerGroup.headers.map((header) => {
                   return (
-                    <TableHead key={header.id} className="sm:block hidden">
+                    <TableHead key={header.id} className=" hidden">
                       {header.isPlaceholder
                         ? null
                         : flexRender(
