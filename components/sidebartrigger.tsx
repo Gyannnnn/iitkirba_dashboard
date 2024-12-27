@@ -33,7 +33,7 @@ export function SheetDemo() {
           </Link>
           <Link
             className="flex justify-center bg-border w-full rounded-md py-1"
-            href="/"
+            href="/users"
           >
             Users
           </Link>
