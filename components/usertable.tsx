@@ -476,7 +476,7 @@ export default function UserTable() {
           </SelectTrigger>
           <SelectContent>
             <SelectGroup>
-              <SelectItem value="Branch">All Branch</SelectItem>
+            
               <SelectItem value="Information Technology">
                 Information Technology
               </SelectItem>
