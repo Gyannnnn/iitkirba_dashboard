@@ -12,7 +12,7 @@ export default function page() {
       <div className="w-[90vw] min-h-screen bg-secondary dark:bg-zinc-950">
         <h1 className="text-4xl pt-10">Analytics</h1>
         <div className="w-[90vw] min-h-screen  pt-2 flex flex-col gap-2">
-          <div className="flex  max-sm:flex-col hover:cursor-pointer justify-between  ">
+          <div className="flex  max-sm:flex-col hover:cursor-pointer justify-between max-sm:gap-2  ">
             <VisitorChart />
             <BranchWiseVisitors />
             <MonthwiseVisitors/>
