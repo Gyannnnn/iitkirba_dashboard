@@ -28,7 +28,7 @@ export default function Navbar() {
           </Link>
           <Link
             className="dark:text-gray-300 hover:underline underline-offset-2"
-            href="/"
+            href="/branch"
           >
             Branch
           </Link>
