@@ -1,5 +1,6 @@
 import React from "react";
 import Createbranch from "../components/Createbranch";
+import Addpyq from "../components/Addpyq";
 
 export default function page() {
   return (
@@ -10,6 +11,9 @@ export default function page() {
         </h1>
         <div className="pt-20">
           <Createbranch />
+        </div>
+        <div className="pt-20">
+          <Addpyq/>
         </div>
       </div>
     </div>
