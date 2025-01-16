@@ -20,6 +20,7 @@ export default  function Createbranch() {
     try {
       await createbranch(formData);
       toast.success("Branch created successfully");
+      (event.target as HTMLFormElement).reset()
       
     } catch (error) {
       toast.error("Failed to create branch"+error);

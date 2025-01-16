@@ -12,9 +12,6 @@ export default function page() {
         <div className="pt-20">
           <Createbranch />
         </div>
-        <div className="pt-20">
-          <Addpyq/>
-        </div>
       </div>
     </div>
   );
