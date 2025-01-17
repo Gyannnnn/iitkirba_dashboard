@@ -34,11 +34,11 @@ export default  function Createbranch() {
                                                                           
                                                                           
 return (
-    <div className="w-full  pt-6 flex flex-col items-center justify-cente ">
+    <div className="w-full  sm:pt-6 flex flex-col items-center justify-cente ">
       <h1 className="text-2xl">Create a new branch</h1>
     
-      <form className="w-1/2 flex flex-col justify-center gap-4 items-center" onSubmit={handlesubmit}  method="post">
-        <div className="w-full px-20">
+      <form className="sm:w-1/2 w-full flex flex-col justify-center gap-4 items-center" onSubmit={handlesubmit}  method="post">
+        <div className="w-full sm:px-20">
           <Label htmlFor="branchname">Branch name</Label>
           <Input
             type="text"
@@ -48,7 +48,7 @@ return (
             required
           />
         </div>
-        <div className="w-full px-20">
+        <div className="w-full sm:px-20">
           <Label htmlFor="branchcode">Branch code</Label>
           <Input
             type="text"
@@ -58,9 +58,9 @@ return (
             required
           ></Input>
         </div>
-        <div className="w-full px-20 ">
+        <div className="w-full sm:px-20 flex-col items-center justify-center  ">
           <Label htmlFor="picture">Picture</Label>
-          <Input name="branchlogo"  className="w-1/2" id="branchlogo" type="file" />
+          <Input name="branchlogo"  className="sm:w-1/2 w-full" id="branchlogo" type="file" />
         </div>
         <Button type="submit">{isloading?"Loading ...":"Create a branch"}</Button>
       </form>

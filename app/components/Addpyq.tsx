@@ -17,6 +17,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 
+
 export default function Addpyq() {
   const [isloading, setloading] = useState(false);
   const [pyq, setPyq] = useState<any>({});
@@ -40,11 +41,11 @@ export default function Addpyq() {
     <div className="w-full flex flex-col items-center justify-center">
       <h1 className="text-2xl">Add a new pyq</h1>
       <form
-        className="w-1/2 flex flex-col justify-center gap-4 items-center"
+        className="sm:w-1/2 w-full flex flex-col justify-center gap-4 items-center"
         method="post"
         onSubmit={handlesubmit}
       >
-        <div className="grid w-full max-w-sm items-center gap-1.5">
+        <div className="grid w-full max-w-sm items-center">
           <Label htmlFor="pyqname">Pyq name</Label>
           <Input
             type="text"
@@ -54,7 +55,7 @@ export default function Addpyq() {
             required
           />
         </div>
-        <div className="flex w-full items-center justify-center gap-2">
+        <div className="flex w-full items-center  justify-center gap-2">
           <div>
             <Label htmlFor="pyqyear">Pyq year</Label>
             <Input
@@ -66,7 +67,7 @@ export default function Addpyq() {
               className="w-40"
             />
           </div>
-          <div>
+          <div className="">
             <Label htmlFor="subjectid">Subject id</Label>
             <Input
               type="number"
