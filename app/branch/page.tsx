@@ -1,6 +1,6 @@
 import React from "react";
 import Createbranch from "../components/Createbranch";
-import Addpyq from "../components/Addpyq";
+
 
 export default function page() {
   return (

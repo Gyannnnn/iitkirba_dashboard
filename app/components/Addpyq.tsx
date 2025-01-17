@@ -20,7 +20,8 @@ import {
 
 export default function Addpyq() {
   const [isloading, setloading] = useState(false);
-  const [pyq, setPyq] = useState<any>({});
+  const [pyq, setPyq] = useState({});
+  console.log(pyq);
 
   const handlesubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
