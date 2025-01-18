@@ -29,7 +29,7 @@ export default function Addnotes() {
       };
 
   return (
-    <div className="w-full bg-red-900 flex flex-col items-center justify-center">
+    <div className="w-full  flex flex-col items-center justify-center pt-8">
       <h1>Add a new note</h1>
       <form
         className="sm:w-1/2 w-full flex flex-col items-center justify-center"
